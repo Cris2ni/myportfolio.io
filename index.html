@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Modak&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <title>Главная</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <nav class="menu">
+          <li class="menu__list">
+            <a href="#about" class="list__item">обо мне</a>
+          </li>
+          <li class="menu__list">
+            <a href="#contacts" class="list__item">контакты</a>
+          </li>
+        </nav>
+
+        <section class="top">
+          <div class="top__border">
+            <h1 class="top__title">portfolio</h1>
+            <h3 class="top__subtitle">art</h3>
+            <img src="img/3d.png" alt="" class="top__img" />
+          </div>
+
+          <img src="img/flower1.png" alt="" class="top__img-flower1">
+          <img src="img/flower2.png" alt="" class="top__img-flower2">
+          <img src="img/top_subtitle.png" alt="" class="top__img-subtitle">
+        </section>
+
+        <a href="#portfolio" class="btn__link">к работам</a>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="about" id="about">
+        <h2 class="about__title">about me</h2>
+
+        <div class="about__items">
+          <div class="item-first">
+            <div class="about__item-text">
+              <div class="text__inner">
+                <h3 class="skills__subtitle">hard skills</h3>
+                <li class="skilss__text">3D-моделирование: blender и 3dx Max</li>
+                <li class="skilss__text">Текстурирование</li>
+                <li class="skilss__text">Анимация</li>
+                <li class="skilss__text">Скульптинг</li>
+				<li class="skilss__text">Визуализация и рендеринг</li>
+                <li class="skilss__text">Работа с Unreal Engine</li>
+                <li class="skilss__text">Владение Photoshop</li>
+              </div>
+              <div class="text__inner">
+                <h3 class="skills__subtitle">soft skills</h3>
+                <li class="skilss__text">Коммуникабельность</li>
+                <li class="skilss__text">Умение работать в команде</li>
+                <li class="skilss__text">Адаптивность и креативность</li>
+                <li class="skilss__text">Трудолюбие и организованность</li>
+                <li class="skilss__text">Внимание к деталям</li>
+                <li class="skilss__text">Самообучение и стрессоустойчивость</li>
+              </div>
+            </div>
+          </div>
+          <div class="item-second">
+            <div class="second__text">
+              <p>
+                Привет! Я Кристина, 3D-художник с опытом создания цифровых моделей
+                различного уровня детализации: low poly и high poly.
+                Моя специализация — разработка 3D-ассетов 
+				и моделирование окружающей среды для игр, визуализации и медиапроектов.
+              </p>
+            </div>
+            <div class="second__img">
+                <img src="img/about/person.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio" id="portfolio">
+        <div class="porttfolio__container">
+          <h2 class="portfolio__title">portfolio</h2>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" style="background-image: url('img/slider/1.png')"> 
+                <h4 class="slider__title slide_1">Living room</h4>
+                <a href="works_2.html" class="slider__link" target="_blank"
+                  ><img src="img/arrow.svg" alt="" class="link__img"
+                /></a>
+              </div>
+              <div class="swiper-slide"  style="background-image: url('img/slider/2.png')">
+                <h4 class="slider__title">Kitchen</h4>
+                <a href="works_1.html" class="slider__link" target="_blank"
+                  ><img src="img/arrow.svg" alt="" class="link__img"
+                /></a>
+              </div>
+              <div class="swiper-slide"  style="background-image: url('img/slider/3.png')">
+                <h4 class="slider__title">Bathroom</h4>
+                <a href="works_3.html" class="slider__link" target="_blank"
+                  ><img src="img/arrow.svg" alt="" class="link__img"
+                /></a>
+              </div>
+              <div class="swiper-slide"  style="background-image: url('img/slider/4.png')">
+                <h4 class="slider__title">Piggi</h4>
+                <a href="works_4.html" class="slider__link" target="_blank"
+                  ><img src="img/arrow.svg" alt="" class="link__img"
+                /></a>
+              </div>
+              <div class="swiper-slide"  style="background-image: url('img/slider/5.png')">
+                <h4 class="slider__title">Chipi</h4>
+                <a href="works_5.html" class="slider__link" target="_blank"
+                  ><img src="img/arrow.svg" alt="" class="link__img"
+                /></a>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+      <div class="footer__container">
+        <h1 class="footer__title">contacts</h1>
+        <div class="footer__inner">
+          <div class="footer__item">
+            <a href="https://t.me/Inanisamor" class="footer__link"><img src="img/tg.svg" alt="" class="footer__img"/></a>
+            <a href="https://t.me/Inanisamor" class="footer__link">@Inasisamor</a>
+          </div>
+          <div class="footer__item-text">
+            <img src="img/arrow.svg" alt="" class="item__img" />
+            <h3 class="footer__subtitle">свяжитесь<br />со мной здесь</h3>
+            <img src="img/arrow.svg" alt="" class="item__img" />
+          </div>
+          <div class="footer__item">
+            <a href="mailto:ekimovacristina@gmail.com" class="footer__link"><img src="img/mail.svg" alt="" class="footer__img"/></a>
+            <a href="mailto:ekimovacristina@gmail.com" class="footer__link">ekimovacristina@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/js.js"></script>
+  </body>
+</html>
